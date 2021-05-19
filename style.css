@@ -1,0 +1,37 @@
+/* align items is vertical */
+/* justify-content is horizontal */
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:rgb(51, 55, 59);
+    padding: 10px;
+}
+.nav-links{
+    display:flex;
+    gap: 10px;
+
+}
+
+.nav-links, li{
+    list-style-type: none;
+
+}
+
+.nav-title{
+    color: white;
+
+}
+
+
+.active{
+
+    color: white;
+}
+
+.btn{
+    background-color: steelblue;
+    color: white;
+
+}
